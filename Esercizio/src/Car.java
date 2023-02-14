@@ -1,13 +1,15 @@
+
 public class Car {
     public String modelName;
     public int mileage;
 
-    public Car(String modelName, int mileage){
+    public Car(String modelName, int mileage) {
         this.modelName = modelName;
         this.mileage = mileage;
     }
 
-    @Deprecated
+
+    @SuppressWarnings("deprecated")
     public void printCarDetails(){
         System.out.println("The name car is: " + modelName + " and the mileage is: " + mileage);
     }
