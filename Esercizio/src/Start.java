@@ -1,3 +1,4 @@
+@SuppressWarnings("deprecated")
 public class Start {
     public static void main(String[] args) {
         Car car1 = new Car("Volkswagen", 180);

@@ -8,8 +8,7 @@ public class Car {
         this.mileage = mileage;
     }
 
-
-    @SuppressWarnings("deprecated")
+    @Deprecated
     public void printCarDetails(){
         System.out.println("The name car is: " + modelName + " and the mileage is: " + mileage);
     }
